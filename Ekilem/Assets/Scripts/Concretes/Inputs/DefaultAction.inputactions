@@ -1,0 +1,33 @@
+{
+    "name": "DefaultAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "b648d1c0-29df-4a5d-96cf-cbb6afd1a71e",
+            "actions": [
+                {
+                    "name": "MoveForward",
+                    "type": "PassThrough",
+                    "id": "a5d570f7-b746-4acb-a18c-5992c45da1ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "12662fe9-6f03-4ae2-8433-281b8a6d2a3d",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
